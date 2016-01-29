@@ -1,7 +1,6 @@
 package company.example.volleyrecycleview.Adapter;
 
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,8 +10,6 @@ import android.widget.Toast;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
-
-import org.w3c.dom.Text;
 
 import java.util.List;
 
@@ -32,7 +29,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     public MyAdapter(List<Song> mList) {
         this.mList = mList;
     }
-
+//Nitin Comments
 
     @Override
     public MyAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
